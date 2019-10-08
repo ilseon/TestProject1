@@ -10,16 +10,16 @@
 
 ## Docker 빌드
 * Docker 이미지를 만들 war 파일과 Dockerfile 파일을 같은 경로에 둠
-!!!!!!!!!!이미지 0!!!!!!!!
+![0.png](./docker.md/0.PNG)
 * docker build <옵션> <Dockerfile 경로>
   * 옵션
     * -t : 생성할 이미지 이름 지정
 <pre><code>docker build -t jms_web .</code></pre>
-!!!!!!!!!!이미지 2!!!!!!!!
+![2.png](./docker.md/2.PNG)
 
 ## Docker 이미지 확인
 * docker images
-!!!!!!!!!!이미지 3!!!!!!!!
+![3.png](./docker.md/3.PNG)
 
 ## Docker 컨테이너 실행
 * docker run <옵션> <이미지 이름, ID> <명령> <매개변수>
@@ -29,12 +29,12 @@
     * --name : 컨테이너 이름 설정
     * -v : 데이터 볼륨 설정, 호스트와 공유할 디렉터리 설정, 파일을 컨테이너에 저장하지 않고 호스트에 바로 저장
 <pre><code>docker run -d -p 38082:8080 --name jms_web -v /home/jms/user/ilseon/logs:/usr/local/tomcat/logs jms_web</code></pre>
-!!!!!!!!!!이미지 4!!!!!!!!
+![4.png](./docker.md/4.PNG)
 
 ## 실행 컨테이너 확인
 * docker ps -a
-!!!!!!!!!!이미지 5!!!!!!!!
+![5.png](./docker.md/5.PNG)
 
 ## 컨테이너 접속
 * docker exec -it <이미지 이름, ID> /bin/bash
-!!!!!!!!!!이미지 6!!!!!!!!
+![6.png](./docker.md/6.PNG)
