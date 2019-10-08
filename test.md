@@ -1,6 +1,6 @@
 ## Dockerfile 생성
 * Dockerfuile에 설정된 내용대로 이미지가 생성됨
-![1.png](./docker.md/1.png)
+  ![1.png](./docker.md/1.PNG)
   * FROM : 어떤 이미지를 기반으로 생성할 지 설정
   * ENV : 환경 변수 설정. 설정한 환경 변수는 RUN, CMD, ENTRYPOINT에 적용됨
   * RUN : FROM에서 설정한 이미지 위에서 스크립트 혹은 명령을 실행
