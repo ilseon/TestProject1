@@ -10,7 +10,7 @@
 
 ## Docker 빌드
 * Docker 이미지를 만들 war 파일과 Dockerfile 파일을 같은 경로에 둠
-![0.png](./docker.md/0.PNG)
+  ![0.png](./docker.md/0.PNG)
 * docker build <옵션> <Dockerfile 경로>
   * 옵션
     * -t : 생성할 이미지 이름 지정
@@ -37,4 +37,4 @@
 
 ## 컨테이너 접속
 * docker exec -it <이미지 이름, ID> /bin/bash
-![6.png](./docker.md/6.PNG)
+  ![6.png](./docker.md/6.PNG)
