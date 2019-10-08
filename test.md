@@ -9,7 +9,7 @@
   단, 호스트의 특정 디렉터리와 연결하고자 할 시 docker run 명령에서 -v 옵션 필요함
 
 ## Docker 빌드
-* Docker 이미지를 만들 war 파일과 Dockerfile 파일을 같은 경로에 둠
+* Docker 이미지를 만들 war 파일과 Dockerfile 파일을 같은 경로에 둠  
   ![0.png](./docker.md/0.PNG)
 * docker build <옵션> <Dockerfile 경로>
   * 옵션
@@ -36,5 +36,5 @@
 ![5.png](./docker.md/5.PNG)
 
 ## 컨테이너 접속
-* docker exec -it <이미지 이름, ID> /bin/bash
+* docker exec -it <이미지 이름, ID> /bin/bash  
   ![6.png](./docker.md/6.PNG)
